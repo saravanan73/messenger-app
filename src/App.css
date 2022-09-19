@@ -1,10 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
-  height: 40vmin;
+  object-fit: contain;
+  width: 100px;
   pointer-events: none;
+  margin: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,19 +22,16 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start;
+  color: #000000;
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +40,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+.App-header > h1,p,h2{
+  margin: 10px;
+}
+.app__form {
+  padding: 20px;
+  z-index: 1;
+  background-color: gray;
+  width: 90%;
+  position: fixed;
+  height: 50px;
+  bottom: 0;
+  margin: 20px !important;
+}
+.app__formControl{
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+
+}
+.app__input{
+  flex: 1;
+}
+.message_show{
+  width: 100%;
+  margin-bottom: 100px;
+ 
 }
