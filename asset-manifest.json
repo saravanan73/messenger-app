@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/messenger-app/static/css/main.97f2aacc.css",
+    "main.js": "/messenger-app/static/js/main.c772ad0c.js",
+    "static/media/background-image.jpg": "/messenger-app/static/media/background-image.140100d433726fbdbc6b.jpg",
+    "index.html": "/messenger-app/index.html",
+    "main.97f2aacc.css.map": "/messenger-app/static/css/main.97f2aacc.css.map",
+    "main.c772ad0c.js.map": "/messenger-app/static/js/main.c772ad0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97f2aacc.css",
+    "static/js/main.c772ad0c.js"
+  ]
+}
