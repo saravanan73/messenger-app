@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home-page{
+    width: 100%;
+    height: 100vh;
+    background-image:    linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../images/background-image.jpg")   ;
+    background-size: cover;
+    background-position: center;
+    font : 'Poppins', sans-serif;
+
+}
+.home-page >h1{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    padding: 20px;
+}
+.from-use{
+    display: flex;
+    align-items: center;
+}
+.from-control{
+    width: 100%;
+    display: flex !important;
+    justify-content: flex-start !important;
+    
+}
+
+.from-control > label{
+    width: 100%;
+    height: 50%;
+    margin: 20px;
+    padding: 40px;
+    font-size: 20px;
+    color: rgb(117, 248, 235);
+    
+
+}
+.input-box{
+    display: block; 
+    font-size: 10px;
+    padding: 10px 0;
+    
+}
+.input-box > input{
+  
+    font-size: 20px;
+    padding: 5px;
+        
+}
+.icon-style{
+    font-size: 70px !important;
+    padding: 10px 0 !important;
+}
